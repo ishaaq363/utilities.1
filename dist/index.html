@@ -15,10 +15,10 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body class="bg-dark">
     <div class="mt-4 p-5 bg-secondary text-center text-white rounded">
-      <h1><b>MARVEL STUDIOS</b></h1>
-      <p>
+      <h1 fs-1 class="bg-warning text-muted m-1"Zrounded-pill "><b>MARVEL STUDIOS</b></h1>
+      <p class="text-warning">
         Marvel Comics is a New York City-based comic book publisher, a property
         of The Walt Disney Company since December 31, 2009, and a subsidiary of
         Disney Publishing Worldwide since March 2023. Marvel was founded in 1939
@@ -26,18 +26,58 @@
         known as Atlas Comics
       </p>
       <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDNG9tW7uUmjbjyMGO7iWQCx3rDFLAoX3MWGAARGSdLXVOxYm-ELvp92VkxcfiXV4M114&usqp=CAU"
+        src="https://i.pinimg.com/564x/fa/db/74/fadb74f43eb56d4eb770b4707a7059f1.jpg" class="rounded-pill"
       />
-    
+      <div class="p-1 bg-secondary "></div>
       <div>
         <a href="https://www.marvel.com/">
             <button type="button" class="btn btn-outline-warning">more info</button>
         </a>
+        <div class="p-1 bg-secondary "></div>
+        <divclass="row align-items-start">
+          <button type="button" class="btn btn-warning">
+            Notifications <span class="badge bg-secondary">4</span>
+          </button>
+        </div>
        
       </div>
     </div>
-    <div class="container"></div>
-
+    <div class="container p-2 mt-4 "modal-dialog modal-lg" bg-dark">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
